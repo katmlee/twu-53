@@ -39,7 +39,9 @@ public class DiamondExercises {
   }
 
   public void printDiamond(){
+    //use isosceles method to get top half of Diamond
     printIsoceles();
+    //use bottom isosceles method to get bottom half of Diamond
     printBottomIsoceles();
   }
 
@@ -55,6 +57,7 @@ public class DiamondExercises {
         System.out.print("Katrina");
       }
       else{
+        //for all other rows print out the correct number of stars
         for (int k = 0; k < c ; k++){
           System.out.print("*");
         }

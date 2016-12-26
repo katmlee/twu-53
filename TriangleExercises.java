@@ -25,5 +25,4 @@ public class TriangleExercises {
       System.out.println();
     }
   }
-
 }
